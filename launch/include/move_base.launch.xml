@@ -3,7 +3,6 @@
 -->
 <launch>
 	<include file="$(find xbot_slam)/launch/include/velocity_smoother.launch.xml"/>
-	<include file="$(find xbot_slam)/launch/include/safety_controller.launch.xml"/>
 	<arg name="odom_frame_id"   default="odom"/>
 	<arg name="base_frame_id"   default="base_link"/>
 	<arg name="global_frame_id" default="map"/>
